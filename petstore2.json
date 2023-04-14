@@ -5,7 +5,8 @@
     "title": "Swagger Petstore 2",
     "license": {
       "name": "MIT"
-    }
+    },
+    "description": "Swagger Petstore 2 description. Magna quis officia laboris eiusmod proident nisi nisi voluptate pariatur enim voluptate."
   },
   "servers": [
     {
