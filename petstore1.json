@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "Swagger Petstore 1",
     "license": {
       "name": "MIT"
@@ -19,17 +19,18 @@
         "summary": "List all pets",
         "operationId": "listPets",
         "tags": [
-          "pets"
+          "pets",
+          "2nd-tag"
         ],
         "parameters": [
           {
             "name": "limit",
             "in": "query",
-            "description": "How many items to return at one time (max 100)",
+            "description": "How many items to return at one time (max 300)",
             "required": false,
             "schema": {
               "type": "integer",
-              "maximum": 100,
+              "maximum": 300,
               "format": "int32"
             }
           }
