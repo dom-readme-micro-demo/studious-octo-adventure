@@ -20,7 +20,8 @@
         "operationId": "listPets",
         "tags": [
           "pets",
-          "2nd-tag"
+          "2nd-tag",
+          "3rd-tag"
         ],
         "parameters": [
           {
