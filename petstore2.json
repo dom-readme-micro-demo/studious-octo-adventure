@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "version": "2.0.0",
-    "title": "Swagger Petstore 2",
+    "title": "Swagger Petstore 2.1",
     "license": {
       "name": "MIT"
     },
@@ -20,7 +20,8 @@
         "operationId": "listPets",
         "tags": [
           "pets",
-          "another-tag"
+          "another-tag",
+          "another-tag-1"
         ],
         "parameters": [
           {
