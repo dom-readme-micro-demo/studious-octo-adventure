@@ -9,6 +9,7 @@ on:
     types:
       - opened
       - edited
+  workflow_dispatch:
 jobs:
   sync:
     runs-on: ubuntu-latest
